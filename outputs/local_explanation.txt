@@ -1,0 +1,9 @@
+Prediction: Not Fraud
+Fraud Probability: 0.03
+Risk Level: LOW RISK
+
+Feature Analysis:
+amount: High amount increases fraud risk
+time: Value observed: 8.0
+location_risk: Safe location
+merchant_risk: Trusted merchant
