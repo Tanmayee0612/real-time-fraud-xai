@@ -1,0 +1,15 @@
+import random
+from drift_module import DriftDetector
+
+detector = DriftDetector()
+
+print("Simulating prediction stream...\n")
+
+for _ in range(300):
+    detector.update(0)
+
+for i in range(300):
+    error = random.choice([0, 1])
+    if detector.update(error):
+        print(f"⚠️ Concept Drift Detected at step {i}")
+        break
