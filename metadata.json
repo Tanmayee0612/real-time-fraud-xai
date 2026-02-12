@@ -1,0 +1,7 @@
+{
+  "name": "Secure Guard - Fraud Detection Dashboard",
+  "description": "An advanced credit card fraud detection system featuring real-time monitoring, Explainable AI insights, and secure UPI verification.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
